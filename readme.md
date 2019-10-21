@@ -9,7 +9,7 @@
 > HH_BBT2017_doubleP.exe -pExcN 1.0 -vInh 70
 
 
-- Then, It will create four files inside the results directory:
+  Then, It will create four files inside the results directory:
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES,Epis.txt
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES,Iapp.txt
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES.txt
