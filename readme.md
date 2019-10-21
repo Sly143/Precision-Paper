@@ -7,7 +7,6 @@
 2. After this, make sure that your have an HH_BBT2017_doubleP.exe file
 3. For simulations with 100% neurons Excitatorys with vInh = 70 mV and dt = 0.01 type the following line code:
 ```HH_BBT2017_doubleP.exe -pExcN 1.0 -vInh 70```
-
 - Then, It will create four files inside the results directory:
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES,Epis.txt
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES,Iapp.txt
@@ -16,7 +15,6 @@
 
 4. For simulations with 80/20% Excitatory/Inhibitory with vInh = 70 mV and dt = 0.01 type the following line code:
 ```HH_BBT2017_doubleP.exe -pExcN 0.8 -vInh 70```
-
 - Then, It will create four files inside the results directory:
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES,Epis.txt
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES,Iapp.txt
