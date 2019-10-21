@@ -79,5 +79,4 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
-5. ***For dt = 0.05, change the command line 33 for 'const double dt = 0.05;' .
-The files will be renamed with dt050, for example: _HH_BBT_rk4_dt050_100,0,vI70,t=8s_double_IappDES,Epis_***
+5. ***For dt = 0.05, change the line 33 in HH_BBT2017_doubleP.cpp by 'const double dt = 0.05;' . The generated files will be renamed with dt050, for example: _HH_BBT_rk4_dt0050_100,0,vI70,t=8s_double_IappDES,Epis.txt_***
