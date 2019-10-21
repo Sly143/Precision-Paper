@@ -3,6 +3,7 @@
 1. Open the **_double_** directory and edit the make file *MakefileWin*, with the correct path for the compiler and Boost library. Then, execute the make command.	
 2. After this, make sure that your have an HH_BBT2017_doubleP.exe file
 3. For simulations with 100% neurons Excitatorys with vInh = 70 mV and dt = 0.01 type the following line code:
+
 > HH_BBT2017_doubleP.exe -pExcN 1.0 -vInh 70
 Then, it will make four files inside the results directory, are they:
 	 - HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES,Epis.txt
